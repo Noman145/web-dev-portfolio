@@ -8,6 +8,11 @@
 } 
 
 /* shared style */
+.secondary-bg{
+
+    background-color:#FFF8F3;
+
+}
 
 .text-primary{
 
@@ -26,7 +31,18 @@ padding: 18px 35px;
 border-radius: 5px;
 
 }
+ .section-title{
+ font-size:35px;
+ font-weight:bold;
+ color:#181818
 
+ }
+ .section-description{
+font-size: 18px;
+font-weight: regular;
+color: #757575;
+
+ }
 /* header */
 .header{
 background-image: url(../images/developer.png),  url(../images/header_bg.png);
@@ -85,4 +101,24 @@ font-weight:600px;
 .banner-profile-pic{
 
     width: 584px;
+}
+/* main styles */
+main{
+max-width:1140px;
+margin: 0 auto;
+}
+/* about styles */
+.about{
+ border-radius:10px;
+ padding: 130px 150px;
+ text-align: center;
+ margin-top: 130px;
+}
+.about-items{
+ display: flex;
+justify-content:space-between;
+}
+.item-description{
+font-weight:bold;
+
 }
